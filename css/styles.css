@@ -140,10 +140,11 @@ button {
     transition: transform .3s ease;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 720px) and (orientation:portrait) {
     #imagenes {
         max-width: 90%;
-        min-width: 70%;
+        min-width: 80%;
     }
 
     #img-activa {
@@ -152,17 +153,17 @@ button {
     }
 
     #cont-interno {
-        max-width: 70%;
-        min-height: 40%;
+        max-width: 80%;
+        min-height: 25%;
     }
 
 }
 
 
-@media (max-width: 575px) {
+@media (max-width: 1600px) and (orientation:landscape) {
     #imagenes {
-        max-width: 90%;
-        min-width: 70%;
+        max-width: 80%;
+        min-width: 60%;
     }
 
     #img-activa {
@@ -171,30 +172,14 @@ button {
     }
 
     #cont-interno {
-        max-width: 70%;
-        min-height: 40%;
+        max-width: 80%;
+        min-height: 60%;
+    }
+
+    #btn-cerrar {
+        top: -5%;
+        right: -5%;
     }
 
 }
-
-@media (max-width: 425px) {
-    #imagenes {
-        max-width: 90%;
-        min-width: 70%;
-    }
-
-    #img-activa {
-        max-width: 90%;
-        height: auto;
-    }
-
-    #cont-interno {
-        max-width: 75%;
-        min-height: 30%;
-    }
-
-}
-
-
-
 
