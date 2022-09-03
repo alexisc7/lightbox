@@ -18,7 +18,7 @@ body {
     background-image: url(../img/bckg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 
@@ -144,6 +144,38 @@ button {
 }
 
 
+/*cel horizontal*/
+
+@media (max-width: 1600px) and (orientation:landscape) {
+    #img-activa {
+        max-width: 100%;
+
+    }
+
+    #cont-interno {
+        max-width: 70%;
+        min-height: 25%;
+    }
+
+    #btn-cerrar {
+        top: -5%;
+        right: -5%;
+    }
+
+    #btn-anterior {
+        left: -8%;
+    }
+
+
+    #btn-siguiente {
+        right: -8%;
+    }
+
+}
+
+
+
+
 /*Laptop*/
 @media (max-width: 1024px) {
     #imagenes {
@@ -179,6 +211,8 @@ button {
 
 
 /* 4k */
+
+
 
 
 
