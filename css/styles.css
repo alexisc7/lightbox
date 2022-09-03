@@ -16,6 +16,7 @@ body {
     padding: 0;
     line-height: 1.6;
     background-image: url(../img/bckg.jpg);
+    background-size: cover;
 }
 
 
@@ -157,6 +158,16 @@ button {
         min-height: 25%;
     }
 
+
+    #btn-anterior {
+        left: -8%;
+    }
+
+
+    #btn-siguiente {
+        right: -8%;
+    }
+
 }
 
 
@@ -168,17 +179,16 @@ button {
 
     #img-activa {
         max-width: 100%;
-
     }
 
     #cont-interno {
-        max-width: 80%;
-        min-height: 60%;
+        max-width: 65%;
+        min-height: 30%;
     }
 
     #btn-cerrar {
-        top: -5%;
-        right: -5%;
+        top: -7%;
+        right: -7%;
     }
 
 }
